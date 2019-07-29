@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 
 class MainTests(unittest.TestCase):
+    # //najw
     @classmethod
     def setUpClass(self):
         self.driver = webdriver.Chrome(executable_path=r"C:\TestFiles\chromedriver.exe")
